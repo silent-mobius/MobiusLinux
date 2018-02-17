@@ -1,0 +1,27 @@
+
+##MAIN
+deb http://http.debian.net/debian stretch main
+
+deb-src http://http.debian.net/debian stretch main
+
+deb http://http.debian.net/debian stretch-updates main
+
+deb-src http://http.debian.net/debian stretch-updates main
+
+deb http://security.debian.org/ stretch/updates main
+
+deb-src http://security.debian.org/ stretch/updates main
+
+deb ftp://ftp.debian.org/debian stable main contrib non-free
+
+###BackPort
+deb http://http.debian.net/debian stretch-backports main
+
+deb http://ftp.debian.org/debian/ stretch-backports non-free contrib
+
+	
+deb http://download.opensuse.org/repositories/isv:/ownCloud:/desktop/Debian_9.0/ /
+
+deb http://download.virtualbox.org/virtualbox/debian stretch contrib
+deb [arch=amd64] https://download.docker.com/linux/debian stretch stable
+# deb-src [arch=amd64] https://download.docker.com/linux/debian stretch stable
