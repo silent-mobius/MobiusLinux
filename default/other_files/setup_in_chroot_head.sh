@@ -7,7 +7,7 @@ export LC_ALL=C
 export PS1="\e[01;31m(live):\W \$ \e[00m"
 
 apt-get update
-apt-get upgrade -y
+#apt-get upgrade -y
 apt-get install -y nano vim iftop htop openssh-client openssh-server less openssl ca-certificates \
 firmware-iwlwifi firmware-misc-nonfree firmware-atheros firmware-brcm80211 firmware-samsung \
 firmware-realtek firmware-linux firmware-linux-free firmware-linux-nonfree intel-microcode \
@@ -22,4 +22,4 @@ libtool libsqlite3-dev libhiredis-dev libgeoip-dev libesd0-dev  libncurses5-dev 
 libstdc++6-4.9-dbg  diffuse libreoffice python-scapy python-pip python-networkx python-netaddr python-netifaces \
 python-netfilter apt-transport-https ca-certificates curl ipython ipython3 python-pycurl python-lxml python-nmap  \
 perl-modules build-essential cmake bison flex git arp-scan zenmap ethtool aircrack-ng etherape lua5.2 luajit \
-luarocks network-manager network-manager-gnome remmina 
+luarocks network-manager network-manager-gnome xserver-xorg xserver-xorg-core xserver-xorg-video-all xserver-xorg-input-all remmina 
