@@ -15,5 +15,6 @@ boot_default="ram"
 livework="./livework"
 
 source_list="deb http://http.debian.net/debian stretch main contrib non-free"
+source_list="deb http://http.debian.net/debian stretch-backports main contrib non-free"
 #mirror="http://ftp.us.debian.org/debian" # use by debootstrap
 #sources_list="deb $mirror ${debian_version} main" # if not empty, replace /etc/apt/sources.list by this content
